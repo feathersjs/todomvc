@@ -27,9 +27,9 @@
 		</footer>
 		<script id="todo-template" type="text/x-handlebars-template">
 			{{#this}}
-			<li {{#if completed}}class="completed"{{/if}} data-id="{{id}}">
+			<li {{#if complete}}class="completed"{{/if}} data-id="{{id}}">
 				<div class="view">
-					<input class="toggle" type="checkbox" {{#if completed}}checked{{/if}}>
+					<input class="toggle" type="checkbox" {{#if complete}}checked{{/if}}>
 					<label>{{text}}</label>
 					<button class="destroy"></button>
 				</div>
