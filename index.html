@@ -69,13 +69,24 @@
 							color: #b12d2b;
 						}
 					</style>
-					<paper-tabs selected="js" class="js-app-tabs">
+					<paper-tabs selected="feathers" class="js-app-tabs">
+						<paper-tab name="feathers">Feathers</paper-tab>
 						<paper-tab name="js">JavaScript</paper-tab>
 						<paper-tab name="ctojs">Compile-to-JS</paper-tab>
 						<paper-tab name="labs">Labs</paper-tab>
 					</paper-tabs>
 
 					<div class="app-lists">
+						<div class="js-app-list" data-app-list="feathers">
+							<p class="applist-intro">
+								These are examples written in pure JavaScript.
+							</p>
+							<ul class="js-app-list-inner applist js">
+								<li class="routing">
+									<a href="examples/backbone/" data-source="http://documentcloud.github.com/backbone/" data-content="Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.">Backbone.js</a>
+								</li>
+							</ul>
+						</div>
 						<div class="js-app-list" data-app-list="js">
 							<p class="applist-intro">
 								These are examples written in pure JavaScript.

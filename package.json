@@ -6,6 +6,7 @@
     "license.md",
     "server.js",
     "examples",
+    "feathers",
     "media",
     "site-assets",
     "index.html",
