@@ -220,8 +220,8 @@ jQuery(function ($) {
 			this.render();
 		},
 		destroy: function (e) {
-			var todo = this.todos[this.indexFromEl(e.target)];
-			this.service.remove(todo.id);
+			this.todos.splice(this.indexFromEl(e.target), 1);
+			this.render();
 		}
 	};
 
