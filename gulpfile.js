@@ -42,6 +42,7 @@ gulp.task('images', function () {
 gulp.task('copy', function () {
 	return gulp.src([
 		'examples/**',
+		'feathers/**',
 		'bower_components/**',
 		'learn.json',
 		'CNAME',
