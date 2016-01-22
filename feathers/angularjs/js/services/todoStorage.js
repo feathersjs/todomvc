@@ -18,7 +18,7 @@ angular.module('todomvc')
 	.factory('feathers', function ($q) {
 		'use strict';
 
-		var URL = 'http://todos.feathersjs.com';
+		var URL = 'http://demo.feathersjs.com';
 		var socket = io(URL);
 		var app = feathers().configure(feathers.socketio(socket));
 		var service = app.service('todos');

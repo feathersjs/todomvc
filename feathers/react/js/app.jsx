@@ -161,7 +161,7 @@ var app = app || {};
 		}
 	});
 
-	var model = new app.TodoModel('http://todos.feathersjs.com');
+	var model = new app.TodoModel('http://demo.feathersjs.com');
 
 	function render() {
 		React.render(

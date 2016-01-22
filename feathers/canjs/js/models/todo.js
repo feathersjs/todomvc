@@ -2,7 +2,7 @@
 (function (namespace) {
 	'use strict';
 
-	var socket = io('http://todos.feathersjs.com');
+	var socket = io('http://demo.feathersjs.com');
 	var app = feathers().configure(feathers.socketio(socket));
 	var FeathersModel = canFeathers(app);
 
