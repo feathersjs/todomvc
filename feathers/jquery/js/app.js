@@ -18,7 +18,7 @@ jQuery(function ($) {
 	var App = {
 		init: function () {
 			this.todos = [];
-			this.socket = io('http://todos.feathersjs.com');
+			this.socket = io('http://demo.feathersjs.com');
 			this.app = feathers().configure(feathers.socketio(this.socket));
 			this.service = this.app.service('todos');
 
